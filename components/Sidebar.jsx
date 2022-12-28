@@ -6,11 +6,11 @@ export default function Sidebar({user}) {
         <div className="flex">
             <div className="flex flex-col h-screen p-3 bg-white shadow w-60">
                 <div className="space-y-3">
-                    <div className="flex items-center">
+                    <div className="flex items-center ">
                         <h2 className="text-xl font-bold">Dashboard</h2>
                     </div>
                     <div className="flex-1">
-                        <ul className="pt-2 pb-4 space-y-1 text-sm">
+                        <ul className="pt-2 pb-4 space-y-1 text-md">
                             <li className="rounded-sm">
                                 <Link
                                     href="/dashboard/classes"
