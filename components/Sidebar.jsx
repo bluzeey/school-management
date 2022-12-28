@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Sidebar({user}) {
     return (
@@ -11,43 +12,43 @@ export default function Sidebar({user}) {
                     <div className="flex-1">
                         <ul className="pt-2 pb-4 space-y-1 text-sm">
                             <li className="rounded-sm">
-                                <a
+                                <Link
                                     href="/dashboard/classNamees"
                                     className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                     <span>classNamees</span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="rounded-sm">
-                                <a
+                                <Link
                                     href="/dashboard/students"
                                     className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                     <span>Students</span>
-                                </a>
+                                </Link>
                             </li>
                             <li className="rounded-sm">
-                                <a
+                                <Link
                                     href="/dashboard/teachers"
                                     className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                     <span>Teachers</span>
-                                </a>
+                                </Link>
                             </li>
                             {user=='admin' && 
-                            <li classNameName="rounded-sm">
-                                <a
+                            <li className="rounded-sm">
+                                <Link
                                     href="/dashboard/edit"
-                                    classNameName="flex items-center p-2 space-x-3 rounded-md"
+                                    className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                     <span>Edit</span>
-                                </a>
+                                </Link>
                             </li>
                             }
-                            <li classNameName="rounded-sm">
+                            <li className="rounded-sm">
                                 <a
                                     href="/"
-                                    classNameName="flex items-center p-2 space-x-3 rounded-md"
+                                    className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                     <span>Logout</span>
                                 </a>
