@@ -1,0 +1,20 @@
+{
+    "classes": {
+      "class": [
+        {
+          "id": "1",
+          "name": "Environment",
+          "time": "1:00 PM",
+          "students": ["Tom Cruise","Helen Williams"],
+          "teacher":"Alberto Caratozzolo"
+        },
+        {
+            "id": "2",
+            "name": "Social Studies",
+            "time": "3:00 PM",
+            "students": ["Tom Cruise","Helen Williams"],
+            "teacher":"Lynea Khan"
+          }
+      ]
+    }
+  }

@@ -1,0 +1,27 @@
+{
+    "teachers": {
+      "teacher": [
+        {
+          "id": "1",
+          "name": "Lynea Khan",
+          "email": "khan@gmail.com",
+          "phone": 12345,
+          "classes":["Social Studies","Science"]
+        },
+        {
+            "id": "2",
+            "name": "Alberto Caratozzolo",
+            "email": "caratozzolo@gmail.com",
+            "phone": 12345,
+            "classes":["Mathematics","Environment"]
+          },
+          {
+            "id": "3",
+            "name": "Byron Shepp",
+            "email": "shepp@gmail.com",
+            "phone": 12345,
+            "classes":["Games","Finance"]
+          }
+      ]
+    }
+  }

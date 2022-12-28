@@ -1,0 +1,27 @@
+{
+    "students": {
+      "student": [
+        {
+          "id": "1",
+          "name": "Tom Cruise",
+          "email": "cruise@gmail.com",
+          "phone": 12345,
+          "classes":["Social Studies","Environment"]
+        },
+        {
+            "id": "2",
+            "name": "Helen Williams",
+            "email": "williams@gmail.com",
+            "phone": 12345,
+            "classes":["Social Studies","Environment"]
+          },
+          {
+            "id": "3",
+            "name": "Murielle Mittag",
+            "email": "mittag@gmail.com",
+            "phone": 12345,
+            "classes":["Social Studies","Environment"]
+          }
+      ]
+    }
+  }
