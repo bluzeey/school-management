@@ -1,19 +1,19 @@
 import React from 'react'
-import ClassesData from '../../data/classes.json'
+import classNameesData from '../../data/classNamees.json'
 import Sidebar from '../../components/Sidebar'
 
-function classes() {
+function classNamees() {
   return (
-    <div class="flex">
+    <div className="flex">
     <Sidebar />
     <div>
-      <h3 class="font-bold text-xl m-auto p-3 text-center">Classes</h3>
-      <div class="flex justify-around">
-        {ClassesData.classes.class.map((Class) => (
-          <div class="max-w-sm rounded overflow-hidden shadow-lg p-2 m-2 ">
-            <div class="px-6 py-4">
-              <p class="font-bold text-xl mb-2">{Class.name}</p>
-              <p class="text-gray-700 text-base">{Class.time}</p>
+      <h3 className="font-bold text-xl m-auto p-3 text-center">classNamees</h3>
+      <div className="flex justify-around">
+        {classNameesData.classNamees.className.map((className) => (
+          <div className="max-w-sm rounded overflow-hidden shadow-lg p-2 m-2 ">
+            <div className="px-6 py-4">
+              <p className="font-bold text-xl mb-2">{className.name}</p>
+              <p className="text-gray-700 text-base">{className.time}</p>
             </div>
           </div>
         ))}
@@ -23,4 +23,4 @@ function classes() {
   )
 }
 
-export default classes
+export default classNamees
