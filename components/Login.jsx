@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import {useRouter} from 'next/router'
 import StudentData from '../data/students.json'
 import TeacherData from '../data/teachers.json'
+import Link from "next/link";
 
 export default function Login({value}) {
     const [email,setEmail]=useState('')
@@ -41,11 +42,11 @@ export default function Login({value}) {
         <div>
             <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0 bg-gray-50">
                 <div>
-                    <a href="/">
+                    <Link href="/">
                         <h3 className="text-4xl font-bold text-purple-600">
                             {value} 
                         </h3>
-                    </a>
+                    </Link>
                 </div>
                 <div className="w-full px-6 py-4 mt-6 overflow-hidden bg-white shadow-md sm:max-w-md sm:rounded-lg">
                     <form onSubmit={handleSubmit}>
