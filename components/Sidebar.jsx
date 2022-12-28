@@ -13,10 +13,10 @@ export default function Sidebar({user}) {
                         <ul className="pt-2 pb-4 space-y-1 text-sm">
                             <li className="rounded-sm">
                                 <Link
-                                    href="/dashboard/classNamees"
+                                    href="/dashboard/classes"
                                     className="flex items-center p-2 space-x-3 rounded-md"
                                 >
-                                    <span>classNamees</span>
+                                    <span>Classes</span>
                                 </Link>
                             </li>
                             <li className="rounded-sm">
